@@ -1,0 +1,14 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .btn-header #btn2 {
+        margin-right: 3.2rem;
+    }
+
+    .container .espacamento h1 {
+        font-size: 23px;
+    }
+
+    #copy {
+        margin-top: 25px;
+        font-size: 0.9rem;
+    }
+}

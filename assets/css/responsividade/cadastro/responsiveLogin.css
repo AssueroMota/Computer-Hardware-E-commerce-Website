@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+    body .imgHeader {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body .container{
+     font-size: 205px;
+    }
+}

@@ -1,0 +1,62 @@
+@media screen and (min-width: 100px) and (max-width: 1050px) {
+    body .imgHeader {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 750px) {
+    .meio .quadro {
+        width: 20rem;
+        font-size: 7px;
+        margin: auto;
+        margin-left: 7rem;
+    }
+    .title-dois p {
+        font-size: 15px;
+    }
+    .dois {
+        width: 75%;
+        margin: auto;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 415px) {
+    .btn-header #btn2 {
+        margin-right: 3.2rem;
+    }
+    #copy {
+        margin-top: 25px;
+        font-size: .8rem;
+    }
+    #reviSao {
+        width: 38rem;
+    }
+    .dois {
+        width: 38rem;
+    }
+    .nav {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #header {
+        justify-content: center;
+    }
+}
+
+@media screen and(max-width: 880px) {
+    #btn3 {
+        width: auto;
+    }
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

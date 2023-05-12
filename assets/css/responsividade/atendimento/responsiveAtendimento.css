@@ -1,0 +1,50 @@
+/* Estilos para telas pequenas */
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+    body .container .imgHeader {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width: 500px) {
+    body .container .imgHeader {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-header #btn2 {
+        margin-right: 3.2rem;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width: 400px) {
+    body .container .imgHeader {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-header #btn2 {
+        margin-right: 3.2rem;
+    }
+
+    .btn-header #btn3 {
+        width: 15rem;
+    }
+
+    #msg textarea {
+        min-width: 300px;
+        min-height: 150px;
+        max-width: 300px;
+        max-height: 150px;
+    }
+
+    #copy {
+        margin-top: 25px;
+       font-size: .8rem;
+    }
+
+
+}
