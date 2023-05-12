@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 415px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
     .btn-header #btn2 {
         margin-right: 3.2rem;
     }
@@ -39,6 +39,17 @@
     }
     .nav {
         width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 970px) {
+    #reviSao {
+        width: 38rem;
+        margin: auto;
+    }
+    .dois {
+        width: 38rem;
         margin: auto;
     }
 }
